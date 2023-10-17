@@ -1,4 +1,4 @@
-# Repositori Tugas Kuliah
+# Repositori Tugas Mata Kuliah Pemrograman Web
 
 Repositori ini digunakan untuk menyimpan tugas yang dikerjakan selama masa kuliah. 
 
@@ -17,7 +17,7 @@ Repositori ini memiliki struktur direktori berikut:
 - `view`: Direktori ini berisi file-file view yang digunakan untuk menghasilkan halaman web yang nantinya akan digunakan pada file controller.
 
 ## Tugas Modul 4
-
+```
 modul_4_hitunh_ppn(
     'controller' => $ppn,
     'models' => $ppn_model,
@@ -29,7 +29,7 @@ modul_4_total_bayar_dengan_ppn(
     'models' => $bayar_model,
     'view' => [$bayar_total, $bayar_total_view]
     );
-
+```
 ## End of note
 
 Jangan suka bolos kek adit
