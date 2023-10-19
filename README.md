@@ -16,6 +16,22 @@ Repositori ini memiliki struktur direktori berikut:
 
 - `view`: Direktori ini berisi file-file view yang digunakan untuk menghasilkan halaman web yang nantinya akan digunakan pada file controller.
 
+## Tugas Modul 3
+```
+[need to edit]
+pengamatan
+pengamatan 2_1 controller saja
+pengamatan 2_2 controller dan model
+pengamatan 2_3 controller dan view
+pengamatan 2_4 model, controller dan view
+
+tes akhir
+1.
+2.
+3.
+4.
+```
+
 ## Tugas Modul 4
 ```
 modul_4_hitunh_ppn(
@@ -30,6 +46,8 @@ modul_4_total_bayar_dengan_ppn(
     'view' => [$bayar_total, $bayar_total_view]
     );
 ```
+
+
 ## End of note
 
 Jangan suka bolos kek adit
