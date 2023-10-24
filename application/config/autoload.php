@@ -89,8 +89,8 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array();
-
+$autoload['helper'] = array('array', 'aritmatika', 'format');
+// tambah helper bair ga panggil satu satu di dalam file controller
 /*
 | -------------------------------------------------------------------
 |  Auto-load Config files
