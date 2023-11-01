@@ -4,7 +4,7 @@
     <title>Kalkulator PPN</title>
 </head>
 <body>
-    <form method="post" action="<?= base_url('ppn/hitung'); ?>"> 
+    <form method="post" action="<?= base_url('modul_4/tes_akhir1_hitung'); ?>"> 
     <!-- error? ke config.php di folder config, trus ubah base urlnya biar actionnya ga ngehasilin substring -->
         <label for="total_pembelian">Total Pembelian: </label>
         <!-- input untuk memasukkan total pembelian -->

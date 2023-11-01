@@ -41,7 +41,7 @@ files = [
 ```
 modul_4_hitunh_ppn = [
     'controller' => $ppn,
-    'models' => $ppn_model,
+    'models' => $tes_akhir1_model,
     'views' => [$ppn_input, $ppn_output]
 ];
 

@@ -1,5 +1,5 @@
 <?php
-class ppn_model extends CI_Model {
+class tes_akhir1_model extends CI_Model {
     public function hitungPpn($total_pembelian) {
         // hitung besarnya PPN (10% dari total_pembelian)
         $besar_ppn = $total_pembelian * 0.1;
