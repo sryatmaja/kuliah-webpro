@@ -89,7 +89,7 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array('array', 'aritmatika', 'format');
+$autoload['helper'] = array('array', 'modul_5/pengamatan2_helper', 'modul_5/tes_akhir1_helper', 'modul_5/tes_akhir2_helper', 'format');
 // tambah helper bair ga panggil satu satu di dalam file controller
 /*
 | -------------------------------------------------------------------
