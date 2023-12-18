@@ -39,7 +39,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |  $autoload['packages'] = array(APPPATH.'third_party', '/usr/local/shared');
 |
 */
-$autoload['packages'] = array();
+$autoload['packages'] = array('database',);
 
 /*
 | -------------------------------------------------------------------
@@ -58,7 +58,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array();
+$autoload['libraries'] = array('database','table');
 
 /*
 | -------------------------------------------------------------------
@@ -89,8 +89,8 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array('array', 'modul_5/pengamatan2_helper', 'modul_5/tes_akhir1_helper', 'modul_5/tes_akhir2_helper', 'format');
-// tambah helper bair ga panggil satu satu di dalam file controller
+$autoload['helper'] = array('file','url','form','text','html');
+
 /*
 | -------------------------------------------------------------------
 |  Auto-load Config files
@@ -132,4 +132,4 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
-$autoload['model'] = array('modul_4/tes_akhir1_model', 'modul_4/tes_akhir2_model');
+$autoload['model'] = array();
